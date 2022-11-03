@@ -1,0 +1,24 @@
+Algoritmo "Media de 3 notas"
+
+Var
+
+nota1, nota2, nota3, media: real
+
+Inicio
+escreval ("Digite sua primeira nota")
+       leia (nota1)
+escreval("Digite sua segunda nota")
+       leia(nota2)
+escreval("Digite sua terceira nota")
+       leia(nota3)
+
+    media <- (nota1+nota2+nota3)/3
+      escreval("A sua média de notas é:", media)
+
+se media >=5 entao
+ escreval("Parabéns! Você foi aprovado")
+senao
+ escreval("Você foi reprovado")
+       fimse
+
+Fimalgoritmo
